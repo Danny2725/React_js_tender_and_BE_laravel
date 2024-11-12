@@ -57,9 +57,10 @@ function ResponsiveAppBar() {
 
     React.useEffect(() => {
         if (!token) {
-            navigate('/login');
+            const redirectPath = location.pathname === '/register' ? '/register' : '/login';
+            navigate(redirectPath); // Điều hướng đến /register hoặc /login
         }
-    }, [token, navigate]);
+    }, [token, navigate, location.pathname]);
     return (
         <AppBar position="static" sx={{ backgroundColor: '#fff', boxShadow: 'none' }}>
             <Container maxWidth="xl">
