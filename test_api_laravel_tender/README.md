@@ -9,9 +9,9 @@ Prerequisites
 	•	docker-compose up -d
 	•	You can access the application at http://localhost (or another port if configured differently in docker-compose.yml).
   3.    Run Laravel Migrations:
-   	•	Once the containers have started, run the Laravel container migration command to create the tables in the database:
-    docker exec -it <containerId> bash
-    php artisan migrate
+   	-	Once the containers have started, run the Laravel container migration command to create the tables in the database:
+    - docker exec -it <containerId> bash
+    - php artisan migrate
   4.	Stopping the Containers:
 	•	When you’re done, stop the containers with:
     docker-compose down
