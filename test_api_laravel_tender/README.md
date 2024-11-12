@@ -77,26 +77,6 @@ curl --location 'http://localhost/api/tender/sup' \
 --header 'Authorization: Bearer 21|90mMFXIMko8DVaER9hvjjpRbyvxUc9ABmwG85h3202a2fb83' \
 --header 'Sec-Fetch-Mode: cors' \
 ```
-7. get supplier detail
-```
-|curl 'http://localhost/tender/view/9' \
-  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
-  -H 'Accept-Language: en-US,en;q=0.9,vi;q=0.8' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Connection: keep-alive' \
-  -H 'Cookie: token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QiLCJpYXQiOjE3MzEyNTE2OTIsImV4cCI6MTczMTI1NTI5MiwiZGF0YSI6eyJpZCI6IjEiLCJlbWFpbCI6InRlc3RpbmcxQGdtYWlsLmNvbSIsInJvbGUiOiJjb250cmFjdG9yIn19.B4aj3gbktq-EMqKqKefFtjwnAxVhu9CFRJck9-2dRO4; ci_session=b3f5f52b469dfcb628657e415026692849b8653c' \
-  -H 'Pragma: no-cache' \
-  -H 'Referer: http://localhost/tender/list_supplier' \
-  -H 'Sec-Fetch-Dest: document' \
-  -H 'Sec-Fetch-Mode: navigate' \
-  -H 'Sec-Fetch-Site: same-origin' \
-  -H 'Sec-Fetch-User: ?1' \
-  -H 'Upgrade-Insecure-Requests: 1' \
-  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36' \
-  -H 'sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"' \
-  -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "macOS"'
-```
 
 III> Migration
 
